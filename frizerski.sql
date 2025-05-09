@@ -13,3 +13,9 @@
 --spol varchar(1),
 --brojtelefona varchar(10)
 --);
+
+--create table usluge (
+--sifra int,
+--naziv varchar(20),
+--cijena decimal(3,2)
+--);
