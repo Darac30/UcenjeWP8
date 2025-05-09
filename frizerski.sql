@@ -19,3 +19,10 @@
 --naziv varchar(20),
 --cijena decimal(3,2)
 --);
+
+--create table posjete (
+--sifra int,
+--djelatnica int,
+--korisnik int,
+--usluga int
+--);
