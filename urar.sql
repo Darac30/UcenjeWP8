@@ -1,1 +1,3 @@
-﻿
+﻿--create database urar;
+
+--use urar;
