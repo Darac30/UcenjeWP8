@@ -28,8 +28,8 @@ create table knjige (
 sifra int not null primary key identity(1,1),
 naslov varchar(50) not null,
 pisac varchar(50) not null,
-vlasnik int,
-clan int,
+vlasnik int references vlasnici(sifra),
+clan int references clanovi(sifra),
 datumpos datetime,
 datumvrac datetime
 );
