@@ -18,3 +18,9 @@ create table clanovi (
 sifra int not null primary key identity(1,1),
 clbroj int
 );
+
+create table vlasnici (
+sifra int not null primary key identity(1,1),
+knjiga int
+);
+
