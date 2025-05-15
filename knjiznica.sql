@@ -13,3 +13,8 @@ prezime varchar(50) not null,
 adresa varchar(50),
 email varchar(50)
 );
+
+create table clanovi (
+sifra int not null primary key identity(1,1),
+clbroj int
+);
