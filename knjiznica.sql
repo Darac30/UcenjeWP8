@@ -24,3 +24,13 @@ sifra int not null primary key identity(1,1),
 knjiga int
 );
 
+create table knjige (
+sifra int not null primary key identity(1,1),
+naslov varchar(50) not null,
+pisac varchar(50) not null,
+vlasnik int,
+clan int,
+datumpos datetime,
+datumvrac datetime
+);
+
