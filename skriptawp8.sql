@@ -4,7 +4,7 @@ use master;
 go
 drop database if exists edunovawp8;
 go
-create database edunovawp8;
+create database edunovawp8 collate Croatian_CI_AS;
 go
 use edunovawp8;
 
