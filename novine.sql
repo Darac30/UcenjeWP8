@@ -19,3 +19,17 @@ naziv varchar(20) not null,
 aktivan bit not null default 0
 );
 
+create table mjesto (
+sifra int not null primary key identity (1,1),
+naziv varchar(20) not null,
+drzava varchar(20) not null,
+);
+
+create table katalog (
+sifra int not null primary key identity (1,1),
+autor int not null references autor(sifra),
+naslov varchar(20),
+izdavac int not null references izdavac(sifra),
+mjesto int not null references mjesto(sifra)
+);
+
