@@ -13,3 +13,9 @@ prezime varchar(30) not null,
 datumrodjenja datetime
 );
 
+create table izdavac (
+sifra int not null primary key identity (1,1),
+naziv varchar(20) not null,
+aktivan bit not null default 0
+);
+
