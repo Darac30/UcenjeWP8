@@ -38,7 +38,7 @@ namespace Ucenja
                     break;
                 case 6:
                 case 7:
-                    Console.WriteLine("Pa i to bi mogle biti ocjeneali nisu");
+                    Console.WriteLine("Pa i to bi mogle biti ocjene ali nisu");
                     break;
                 default:
                     Console.WriteLine("nije ocjena");
