@@ -30,7 +30,9 @@ using Ucenja;
 //E11Z02.Izvedi();
 
 // ključna riječ "new" poziva konstruktor klase
-new Ucenja.E14KlasaObjekt.Program();
+//new Ucenja.E14KlasaObjekt.Program();
+
+Ucenja.E14KlasaObjekt.Program.AutomobilZadatak();
 
 
 
