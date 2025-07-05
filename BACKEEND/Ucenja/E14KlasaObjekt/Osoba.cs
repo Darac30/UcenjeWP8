@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace Ucenja.E14KlasaObjekt
     // klasa je opisnik objekta -> naučiti napamet
 {
-    internal class Osoba
+    public class Osoba
     {
         // klasa se sastoji od svojstava
         // princip učahurivanja (OOP princip)
@@ -20,6 +16,15 @@ namespace Ucenja.E14KlasaObjekt
         public string Prezime { get; set; } = ""; // "" će postaviti prazno, neće biti null
 
         public DateTime? DatumRodenja { get; set; }
+
+        // prvi tekst Mjesto je klasa, a drugi tekst Mjesto je svojstvo
+        // ovo je veza 1:n u bazi
+        public Mjesto? Mjesto { get; set; }
+
+        // ovo je veza n:n u bazi
+        // koristimo nizove u slučaju da postoji više od 1 mjesta
+
+        public Mjesto[]? Mjesta { get; set; }
 
         // klasa se sastoji od metoda
         // ova metoda nije static!
