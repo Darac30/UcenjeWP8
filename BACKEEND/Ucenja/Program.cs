@@ -32,7 +32,9 @@ using Ucenja;
 // ključna riječ "new" poziva konstruktor klase
 //new Ucenja.E14KlasaObjekt.Program();
 
-Ucenja.E14KlasaObjekt.Program.AutomobilZadatak();
+//Ucenja.E14KlasaObjekt.Program.AutomobilZadatak();
+
+new Ucenja.E15Nasljeđivanje.Program();
 
 
 
