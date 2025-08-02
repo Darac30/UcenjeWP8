@@ -17,7 +17,7 @@ namespace Ucenja.E15Nasljeđivanje
         public override bool Equals(object? obj)
         {
             if (obj == null) return false;
-            var p = obj as Polaznik;
+            var p = obj as Polaznik;  
             if (p.Ime.Equals(Ime) &&
                 p.Prezime.Equals(Prezime) && 
                 p.Telefon.Equals(Telefon)) return true;
