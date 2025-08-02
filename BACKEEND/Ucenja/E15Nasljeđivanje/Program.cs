@@ -8,11 +8,11 @@ namespace Ucenja.E15Nasljeđivanje
 {
     public class Program
     {
-        public Program() 
+        public Program() // ovo je konstruktor za klasu
         {
             Console.WriteLine("Nasljeđivanje");
 
-            var oso = new Osoba() { Ime = "Marija", Prezime = "Kaz" };  // s lijeve strane je moglo pisati i Osoba oso
+            var oso = new PotencijalniPolaznik() { Ime = "Marija", Prezime = "Kaz" };  // s lijeve strane je moglo pisati i Osoba oso
 
             Predavac pre = new() { Ime = "Karlo", Prezime = "Lot", IBAN = "HR3854492133584" }; // ovdje je s lijeve strane naziv klase, a sdesne strane samo new
 
@@ -37,6 +37,32 @@ namespace Ucenja.E15Nasljeđivanje
             Console.WriteLine(pol);  // ovo je jednako kao da smo pozvali pol.ToString()
 
             Console.WriteLine(pre);
+
+
+
+            string grad = "Osijek";
+
+            Console.WriteLine(grad.GetHashCode()); //-1845841128
+
+            grad += " je najbolji";
+
+            Console.WriteLine(grad.GetHashCode()); // -1718487138
+
+            // ista varijabla nakon promjene nema isti hashcode (immutable)
+            // string je immutable klasa (ne može se mijenjati)
+            // svaka promjena string varijable radi novu instancu string klase - ŠTO NIKAKO NIJE DOBRO
+
+            // rješenje: koristiti StringBuilder klasu
+
+            var sb = new StringBuilder();
+
+            sb.Append("Osijek");
+
+            Console.WriteLine(sb.GetHashCode());
+
+            sb.Append(" je najbolji");
+
+            Console.WriteLine(sb.GetHashCode());
 
         }
     }
