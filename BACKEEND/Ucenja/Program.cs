@@ -34,7 +34,9 @@ using Ucenja;
 
 //Ucenja.E14KlasaObjekt.Program.AutomobilZadatak();
 
-new Ucenja.E15Nasljeđivanje.Program();
+//new Ucenja.E15Nasljeđivanje.Program();
+
+new Ucenja.E16Polimorfizam.Program();
 
 
 
