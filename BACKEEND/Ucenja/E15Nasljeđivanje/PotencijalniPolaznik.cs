@@ -9,5 +9,6 @@ namespace Ucenja.E15Nasljeđivanje
     // sve iz Osobe mi odgovara, a od Osobe ne mogu napraviti klasu jer je Osoba apstraktna
     public class PotencijalniPolaznik : Osoba
     {
+        public string Napomena { get; set; }
     }
 }
