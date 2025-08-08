@@ -36,7 +36,11 @@ using Ucenja;
 
 //new Ucenja.E15Nasljeđivanje.Program();
 
-new Ucenja.E16Polimorfizam.Program();
+//new Ucenja.E16Polimorfizam.Program();
+
+//new Ucenja.E17Vjezbanje.Program();
+
+new Ucenja.E18GSALE.Program();
 
 
 
