@@ -40,7 +40,9 @@ using Ucenja;
 
 //new Ucenja.E17Vjezbanje.Program();
 
-new Ucenja.E18GSALE.Program();
+// new Ucenja.E18GSALE.Program();
+
+new Ucenje.E19KonzolnaAplikacija.Izbornik();
 
 
 
