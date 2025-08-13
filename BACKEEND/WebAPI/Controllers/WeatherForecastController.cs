@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]   // ime klase bez controller. Ova klasa æe biti WeatherForecast
+    //[ApiController]
+    //[Route("[controller]")]   // ime klase bez controller. Ova klasa æe biti WeatherForecast
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
